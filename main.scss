@@ -1,0 +1,199 @@
+@import 'colors';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    height: 100%;
+
+    header {
+        width: 100%;
+        // background-color: $primary-footer-color;
+        height: 55px;
+
+        nav {
+            height: 100%;
+
+            ul {
+                list-style: none;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                width: 97.5%;
+                height: 100%;
+                margin: auto;
+
+                li {
+                    a {
+                        color: #2f2f2f;
+                        text-decoration: none;
+                        font-size: 12.5px;
+
+                        &:hover {
+                            text-decoration: underline;
+                            color: #818181;
+                        }
+                    }
+                }
+
+                li,
+                div {
+                    padding: 10px;
+                }
+
+                div {
+                    margin-right: 10px;
+                }
+
+                .menu {
+
+                    img {
+                        width: 15px;
+                        height: 15px;
+
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                .profil-picture {
+                    background: url(https://lh3.googleusercontent.com/-1WqFGqfoGKA/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfeq5J2QNOjKCpHZLoc631eB7dX0g.CMID/s32-c/photo.jpg) center center / cover;
+                    width: 30px;
+                    height: 30px;
+                    padding-left: 20px;
+                    border-radius: 100%;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    //MAIN GOESS HERE
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 70vh;
+        width: 100%;
+
+        .logo {
+            margin-bottom: 15px;
+        }
+    }
+
+    .search-bar {
+        width: 100em;
+        text-align: center;
+        justify-content: center;
+
+        input {
+            width: 40%;
+            height: 50px;
+            border-radius: 24px;
+            border: 1px solid #dfe1e5;
+            outline: none;
+            background-color: #fff;
+            padding-left: 40px;
+
+            &:hover {
+                box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+                border-color: rgba(223, 225, 229, 0);
+            }
+        }
+    }
+
+    .buttons {
+        margin-top: 2%;
+        margin-bottom: 1%;
+        width: 20em;
+        display: flex;
+        justify-content: space-evenly;
+
+        .btn-one,
+        .btn-two {
+            padding: 8px 20px;
+            border: none;
+            background-color: $primary-footer-color;
+            color: #2f2f2f;
+            border: 1px solid #fff;
+            border-radius: 5px;
+
+            &:hover {
+                border: 1px solid #a3a3a3;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .lng-rs {
+        width: 100em;
+        margin-top: 20px;
+        text-align: center;
+
+        p {
+            a {
+                font-size: 13.5px;
+                margin: 0 5px;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    background-color: $primary-footer-color;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    .text-div {
+        // background-color: #818181;
+        padding: 10px 0px;
+        color: #818181;
+        margin-left: 21px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: flex-end;
+        border-top: 1px solid #c5c5c5;
+
+        ul {
+            list-style: none;
+            display: flex;
+
+            li {
+                padding: 10px 20px;
+
+                a {
+                    text-decoration: none;
+                    font-size: 13.5px;
+                    color: #818181;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}

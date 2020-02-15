@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+
+.container {
+  height: 100%;
+}
+.container header {
+  width: 100%;
+  height: 55px;
+}
+.container header nav {
+  height: 100%;
+}
+.container header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 97.5%;
+  height: 100%;
+  margin: auto;
+}
+.container header nav ul li a {
+  color: #2f2f2f;
+  text-decoration: none;
+  font-size: 12.5px;
+}
+.container header nav ul li a:hover {
+  text-decoration: underline;
+  color: #818181;
+}
+.container header nav ul li,
+.container header nav ul div {
+  padding: 10px;
+}
+.container header nav ul div {
+  margin-right: 10px;
+}
+.container header nav ul .menu img {
+  width: 15px;
+  height: 15px;
+}
+.container header nav ul .menu img:hover {
+  cursor: pointer;
+}
+.container header nav ul .profil-picture {
+  background: url(https://lh3.googleusercontent.com/-1WqFGqfoGKA/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfeq5J2QNOjKCpHZLoc631eB7dX0g.CMID/s32-c/photo.jpg) center center/cover;
+  width: 30px;
+  height: 30px;
+  padding-left: 20px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.container main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+  width: 100%;
+}
+.container main .logo {
+  margin-bottom: 15px;
+}
+.container .search-bar {
+  width: 100em;
+  text-align: center;
+  justify-content: center;
+}
+.container .search-bar input {
+  width: 40%;
+  height: 50px;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  outline: none;
+  background-color: #fff;
+  padding-left: 40px;
+}
+.container .search-bar input:hover {
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+.container .buttons {
+  margin-top: 2%;
+  margin-bottom: 1%;
+  width: 20em;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container .buttons .btn-one,
+.container .buttons .btn-two {
+  padding: 8px 20px;
+  border: none;
+  background-color: #f2f2f2;
+  color: #2f2f2f;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.container .buttons .btn-one:hover,
+.container .buttons .btn-two:hover {
+  border: 1px solid #a3a3a3;
+  cursor: pointer;
+}
+.container .lng-rs {
+  width: 100em;
+  margin-top: 20px;
+  text-align: center;
+}
+.container .lng-rs p a {
+  font-size: 13.5px;
+  margin: 0 5px;
+  text-decoration: none;
+}
+.container .lng-rs p a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  width: 100%;
+  background-color: #f2f2f2;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+footer .text-div {
+  padding: 10px 0px;
+  color: #818181;
+  margin-left: 21px;
+}
+footer nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: flex-end;
+  border-top: 1px solid #c5c5c5;
+}
+footer nav ul {
+  list-style: none;
+  display: flex;
+}
+footer nav ul li {
+  padding: 10px 20px;
+}
+footer nav ul li a {
+  text-decoration: none;
+  font-size: 13.5px;
+  color: #818181;
+}
+footer nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=main.css.map */
